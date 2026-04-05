@@ -21,7 +21,7 @@ West Africa (Nigeria, Ghana, Senegal), East Africa (Ethiopia, Kenya), South Afri
 
 | Technology | Purpose |
 |---|---|
-| [Next.js 14](https://nextjs.org) (App Router) | Full-stack React framework |
+| [Next.js 15](https://nextjs.org) (App Router) | Full-stack React framework |
 | [TypeScript](https://www.typescriptlang.org) | Type-safe development |
 | [Tailwind CSS](https://tailwindcss.com) | Utility-first styling |
 | React Context API | Global cart state management |
