@@ -32,7 +32,7 @@ export default function CheckoutPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const orderNumber = 'ACK-' + Math.random().toString(36).substring(2, 8).toUpperCase();
+    const orderNumber = 'ACK-' + crypto.randomUUID().replace(/-/g, '').substring(0, 6).toUpperCase();
     clearCart();
     router.push(`/order-confirmation?order=${orderNumber}&name=${encodeURIComponent(form.name)}`);
   };
